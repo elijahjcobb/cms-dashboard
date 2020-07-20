@@ -1,0 +1,16 @@
+/**
+ * Elijah Cobb
+ * elijah@elijahcobb.com
+ * elijahcobb.com
+ * github.com/elijahjcobb
+ */
+
+@import "variables";
+
+.App {
+	display: flex;
+
+	width: 100vw;
+	height: 100vh;
+	background: $black;
+}

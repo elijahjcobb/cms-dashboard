@@ -1,0 +1,44 @@
+/**
+ * Elijah Cobb
+ * elijah@elijahcobb.com
+ * elijahcobb.com
+ * github.com/elijahjcobb
+ */
+
+@import "../../variables";
+
+.PagePickerView {
+	padding: 10px;
+
+	.bar {
+
+		display: flex;
+		align-items: center;
+		margin-bottom: 10px;
+
+		.description {
+			display: block;
+			color: #999;
+			font-size: 1.5em;
+			font-weight: lighter;
+			flex-grow: 1;
+		}
+
+		.icon {
+			background: $black;
+			border-radius: 50%;
+			padding: 5px;
+			width: 40px;
+			height: 40px;
+			display: block;
+		}
+
+	}
+
+
+
+	.pages {
+		display: flex;
+		flex-direction: column;
+	}
+}

@@ -1,0 +1,41 @@
+/**
+ * Elijah Cobb
+ * elijah@elijahcobb.com
+ * elijahcobb.com
+ * github.com/elijahjcobb
+ */
+/**
+ * Elijah Cobb
+ * elijah@elijahcobb.com
+ * elijahcobb.com
+ * github.com/elijahjcobb
+ */
+.PagePickerView {
+  padding: 10px;
+}
+.PagePickerView .bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.PagePickerView .bar .description {
+  display: block;
+  color: #999;
+  font-size: 1.5em;
+  font-weight: lighter;
+  flex-grow: 1;
+}
+.PagePickerView .bar .icon {
+  background: #21252b;
+  border-radius: 50%;
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  display: block;
+}
+.PagePickerView .pages {
+  display: flex;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=PagePickerView.css.map */

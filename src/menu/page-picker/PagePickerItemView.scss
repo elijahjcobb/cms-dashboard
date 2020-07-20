@@ -1,0 +1,29 @@
+/**
+ * Elijah Cobb
+ * elijah@elijahcobb.com
+ * elijahcobb.com
+ * github.com/elijahjcobb
+ */
+
+@import "../../variables";
+
+.PagePickerItemView {
+	display: flex;
+	align-items: center;
+	background: $black;
+	padding: 10px 4px 10px 20px;
+	border-radius: 5px;
+	margin: 5px 0;
+
+	span {
+		flex-grow: 1;
+	}
+}
+
+.PagePickerItemView:hover {
+	cursor: pointer;
+}
+
+.PagePickerItemView-active {
+	background: #444;
+}
